@@ -29,7 +29,7 @@ app.use((req, res, next) => {
 
 //Db config pXVm7WhGHx27xg6
 const connection_url = 
-"mongodb+srv://aagrah:pXVm7WhGHx27xg6@cluster0.5xbwp.mongodb.net/Wdb?retryWrites=true&w=majority"
+"mongodb+srv://hiddenusername:hiddenforareason@cluster0.5xbwp.mongodb.net/Wdb?retryWrites=true&w=majority"
 
 mongoose.connect(connection_url,{
     useCreateIndex: true,
